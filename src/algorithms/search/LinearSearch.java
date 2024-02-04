@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.search;
 
 public class LinearSearch {
     public static void main(String[] args) {
@@ -20,6 +20,7 @@ public class LinearSearch {
     }
 
     private static int linearSearch(int[] array, int value) {
+        
         for (int i = 0; i < array.length; i++) {
             if(array[i]==value)
                 return i;
